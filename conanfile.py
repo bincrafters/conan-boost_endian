@@ -8,14 +8,14 @@ class BoostEndianConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["endian"]
-    requires =  "Boost.Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Predef/1.65.1@bincrafters/stable", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
-                      "Boost.System/1.65.1@bincrafters/stable",\
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable",\
-                      "Boost.Utility/1.65.1@bincrafters/stable"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Predef/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.System/1.65.1@bincrafters/testing",\
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing",\
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #assert1 config0 core2 predef0 static_assert1 system3 type_traits3 utility5
 
