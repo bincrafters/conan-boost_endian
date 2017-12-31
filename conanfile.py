@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostEndianConan(ConanFile):
     name = "boost_endian"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-endian"
+    url = "https://github.com/bincrafters/conan-boost_endian"
 
     lib_short_names = ["endian"]
     is_header_only = True
