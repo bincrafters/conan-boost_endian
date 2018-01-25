@@ -8,7 +8,8 @@ class BoostEndianConan(ConanFile):
     name = "boost_endian"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_endian"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["endian"]
     is_header_only = True
 
